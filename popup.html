@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Focus Flow</h1>
+  <div id="timer">
+    <label>Work Interval (min): <input type="number" id="work-time" value="25"></label>
+    <label>Break Interval (min): <input type="number" id="break-time" value="5"></label>
+    <button id="start-timer">Start Focus Timer</button>
+    <div id="countdown"></div>
+  </div>
+  <div id="task-tracker">
+    <input type="text" id="task-input" placeholder="Enter a task">
+    <button id="add-task">Add Task</button>
+    <ul id="task-list"></ul>
+  </div>
+  <div id="focus-sounds">
+    <button id="play-sound">Play Focus Sound</button>
+    <button id="stop-sound">Stop Sound</button>
+  </div>
+</body>
+<script src="popup.js"></script>
+</html>
